@@ -1,0 +1,567 @@
+
+/* SMALL DEVICES */
+
+/* page header */
+.pageHead{
+	background-color: royalblue;
+	height: 30%;
+	color: paleturquoise;
+	text-align: center;
+}
+
+
+.nameFont{
+	font-size: 50px;
+}
+
+.h2Font{
+	font-size: 30px;
+}
+
+nav{
+	background-color: skyblue;
+}
+a{
+	color: darkblue;
+} 
+
+/* adds hover color */
+a:hover {
+  background-color: royalblue;
+}
+.current-page{
+	background-color: darkred;
+}
+
+/* navigation grid setup */
+.grid-nav{
+	display: grid;
+	grid-template-areas: 
+		'H'
+		'M'
+		'O'
+		'G'
+		'L';
+	text-align: center;
+}
+
+/* individual nav grid aspects */
+#H{
+	grid-area: H;
+}
+
+#M{
+	grid-area: M;
+}
+
+#O{
+	grid-area: O;
+}
+
+#G{
+	grid-area: G;
+}
+
+#L{
+	grid-area: L;
+}
+
+/* footer */
+footer{
+	background-color: skyblue;
+	color: navy;
+}
+
+body{
+	background-color: cornflowerblue;
+}
+
+/* part for social media icons from W3 */
+		/* Style all font awesome icons */
+		.fa {
+		  padding: 20px;
+		  font-size: 30px;
+		  width: 50px;
+		  text-align: center;
+		  text-decoration: none;
+		}
+
+		/* Add a hover effect if you want */
+		.fa:hover {
+		  opacity: 0.7;
+		}
+
+		/* Set a specific color for each brand */
+
+		/* Facebook */
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+		/* Twitter */
+		.fa-twitter {
+		  background: #55ACEE;
+		  color: white;
+		}
+
+		.fa-vine {
+			  background: #00b489;
+			  color: white;
+		}
+
+
+		
+
+
+
+
+
+
+
+/* PARTS FOR HOME PAGE */
+
+
+/* grid container for welcome paragraph, order now, reviews */
+.home-grid-cont{
+	display: grid;
+	grid-template-areas: 
+		'welcomeParagraph'
+		'orderNow'
+		'reviews';
+}
+
+.welc-para{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: welcomeParagraph;
+}
+
+.ord-now{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: orderNow;
+}
+
+.reviews{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: reviews;
+}
+
+/* vertically center welcome paragraph  */
+#vert-cent{
+
+}
+
+/* lower section Home page menu, gallery, location */
+
+.menuSection{
+	background-image: url(https://i.imgur.com/Ht5QalV.jpg);
+	height: 150px;
+	background-position: center;
+	text-align: right;
+	color: lightgrey;
+	font-family: "Georgia";
+}
+
+.gallerySection{
+	background-image: url(https://i.imgur.com/vDBehY9.jpg);
+	height: 150px;
+	background-position: center;
+	text-align: right;
+	color: lightgrey;
+	font-family: "Georgia";
+}
+
+.locationSection{
+	background-image: url(https://i.imgur.com/U2o7VFZ.jpg);
+	height: 150px;
+	background-position: center;
+	text-align: right;
+	color: lightgrey;
+}
+
+.sectionTag{
+	color: beige;
+	text-shadow: 1px 1px red;
+	font-size: 40px;
+}
+
+a.homeLowerSect{
+	color: lightgrey;
+	size: 50px;
+}
+
+/* face button attempt */
+
+
+
+/* PARTS FOR MENU PAGE */
+.menu-grid-cont{
+display: grid;
+	grid-template-areas: 
+		'pridePara'
+		'sizes'
+		'toppings'
+		'extras'
+		'orderNow';
+}
+
+.pridePara{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: pridePara;
+
+}
+
+.sizes{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: sizes;
+}
+
+.toppings{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: toppings;
+}
+
+.extras{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: extras;
+}
+
+.orderNow{
+	display: grid;
+	grid-area: orderNow;
+	text-align: center;
+}
+
+.
+
+
+
+/* PARTS FOR GALLERY */
+
+.sneakPeak{
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+}
+
+#sneakP2{
+	text-align: center;
+	background-color: royalblue;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 750px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* END GALLERY */
+
+
+/* LOCATIONS */
+.locations-grid-cont{
+	display: grid;
+	grid-template-areas: 
+		'WeP'
+		'west'
+		'cent'
+		'east';
+}
+.wherever-para{
+	display: grid;
+	background-color: royalblue;
+	margin: 5%;
+	padding: 5%;
+	text-align: center;
+	grid-area: WeP;
+}
+
+.west{
+	background-color: royalblue;
+	margin: 5%;
+	padding: 10%;
+	text-align: center;
+	display: grid;
+	grid-area: west;
+}
+
+.cent{
+	background-color: royalblue;
+	margin: 5%;
+	padding: 10%;
+	text-align: center;
+	display: grid;
+	grid-area: cent;
+}
+
+.east{
+	background-color: royalblue;
+	margin: 5%;
+	padding: 10%;
+	text-align: center;
+	display: grid;
+	grid-area: east;
+}
+
+.location-pic{
+	display: block;
+	margin: auto;
+}
+/* END LOCATIONS */
+
+/* ORDER PAGE */
+.order-grid{
+	display: grid;
+}
+
+.LvD{
+	background-color: royalblue;
+		}
+
+	h2{
+		font-size: 25px;
+		text-align: center;
+		background-color: lavender;
+		border-style: solid;
+  		border-color: red;
+  		border-width: 1px;
+  		width: 250px;
+  		height:40px;
+  		position: absolute;
+  		top:270px;
+  		left:1020px;
+
+
+
+	}
+	.Toppings{
+		display: grid;
+		grid-area: topp;
+	}
+
+	.meatballs{
+		font-size: 20px;
+		background-color: lavender;
+		border-style: solid;
+  		border-color: red;
+  		width: 100px;
+  		position: absolute;
+  		top:350px;
+  		left:1090px;
+
+	}
+
+	.chicken{
+		font-size: 20px;
+		background-color: lavender;
+		border-style: solid;
+  		border-color: red;
+  		width: 100px;
+  		position: absolute;
+  		top:450px;
+  		left:1090px;
+
+	}
+	.pesto{
+		font-size: 20px;
+		background-color: lavender;
+		border-style: solid;
+  		border-color: red;
+  		width: 100px;
+  		position: absolute;
+  		top:550px;
+  		left:1090px;
+	}
+	.onion{
+		font-size: 20px;
+		background-color: lavender;
+		border-style: solid;
+  		border-color: red;
+  		width: 100px;
+  		position: absolute;
+  		top:650px;
+  		left:1090px;
+	}
+
+
+	.yourOrder{
+		background-color: lavender;
+		display: grid;
+		border-style: solid;
+  		border-color: red;
+  		width: 200px;
+  		grid-area: YO;
+	}
+
+	.faceFull{
+	position: absolute;
+	top:350px;
+	left:600px;
+}
+
+	
+	.pizzaSizeButt{
+		text-align: center;
+		font-size: 16px;
+		background-color: lavender;
+		display: grid;
+		border-style: solid;
+  		border-color: red;
+  		width: 200px;
+  		position: absolute;
+  		left: 600px;
+
+
+	}
+	.P-O{
+		color: red;
+	}
+
+	#DoL{
+		text-align: right;
+	}
+
+
+
+
+
+
+/* MEDIUM DEVICES */ 
+
+
+
+	/* Home Page */
+	@media only screen and (min-width: 750px) {
+
+	.home-grid-cont{
+		display: grid;
+		grid-template-areas: 
+			'welcomeParagraph welcomeParagraph'
+			'orderNow reviews';
+	}
+
+	.grid-nav{
+	display: grid;
+	grid-template-areas: 
+		'H M O G L';
+	}
+
+	body{
+		background: darkred;
+	}
+
+	/* MENU PAGE */ 
+	.menu-grid-cont{
+	display: grid;
+		grid-template-areas: 
+			'pridePara sizes toppings'
+			'pridePara extras orderNow';
+	}
+	/* ORDER/PRODUCT PAGE */
+
+	.order-grid{
+		grid-template-areas: 
+		'topp YO';
+
+	}
+
+	/* LOCATIONS PAGE */
+	.locations-grid-cont{
+		display: grid;
+		grid-template-areas: 
+			'west cent east'
+			'WeP Wep Wep';
+	}
+
+
+
+
+
+/* Large Devices */
+@media only screen and (min-width: 1100px) {
+
+	body{
+		background: purple;
+	}
+
+	.home-grid-cont{
+		display: grid;
+		grid-template-areas: 
+			'welcomeParagraph orderNow reviews';
+	}
+
+
+
